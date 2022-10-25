@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <!--Main container is here-->
+    <main>
+      <section>
+        <div class="container">
+          <div class="h1_container">
+            <!--Heading container is here-->
+            <h1>NET<span>FLIX</span></h1>
+          </div>
+          <!--Paragraph is here-->
+          <div class="just_text">
+            <p>
+              Thank you for signing up at Netflix. Tell us more about yourself.
+            </p>
+          </div>
+          <!--Form Container is here-->
+          <form action="q" method="GET">
+            <div class="form_container">
+              <!--Main Information Area-->
+              <div class="inputs">
+                <label for="name" class="content_v1">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  placeholder="Enter Your Name"
+                  required
+                />
+              </div>
+              <div class="inputs">
+                <label for="age" class="content_v1">Age</label>
+                <input
+                  type="number"
+                  id="age"
+                  placeholder="Age"
+                  max="99"
+                  min="18"
+                  required
+                />
+              </div>
+              <div class="inputs">
+                <label for="email" class="content_v1">E-mail</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="  example@netflix.com"
+                  required
+                />
+              </div>
+              <div class="inputs">
+                <label for="name" class="content_v1">Content Type</label>
+                <select name="vsss">
+                  <option value="Movie" selected>Movie</option>
+                  <option value="Series">Series</option>
+                </select>
+              </div>
+              <!--Checkboxs Area-->
+              <div class="inputs">
+                <label class="checkbox-radio_labels">Movie Type</label>
+                <br />
+                <input
+                  type="checkbox"
+                  class="checkbox-radio_inputs"
+                  id="Comedy"
+                />
+                <label for="Comedy" class="checkbox-radio_labels">Comedy</label>
+                <br />
+                <input
+                  type="checkbox"
+                  class="checkbox-radio_inputs"
+                  id="action"
+                />
+                <label for="action" class="checkbox-radio_labels">Action</label>
+                <br />
+                <input
+                  type="checkbox"
+                  class="checkbox-radio_inputs"
+                  id="romance"
+                />
+                <label for="romance" class="checkbox-radio_labels"
+                  >Romance</label
+                >
+              </div>
+              <br />
+              <!--Radio Buttons Area-->
+              <div class="inputs radiobuttons">
+                <label for="">Gender</label>
+                <input
+                  type="radio"
+                  class="checkbox-radio_inputs"
+                  id="man"
+                  name="bla"
+                />
+                <label for="man" class="checkbox-radio_labels">Male</label>
+                <br />
+                <input
+                  type="radio"
+                  class="checkbox-radio_inputs"
+                  id="woman"
+                  name="bla"
+                />
+                <label for="woman" class="checkbox-radio_labels">Woman</label>
+                <br />
+                <input
+                  type="radio"
+                  class="checkbox-radio_inputs"
+                  id="other"
+                  name="bla"
+                />
+                <label for="other" class="checkbox-radio_labels">Other</label>
+              </div>
+
+              <div class="inputs">
+                <label for="feedbackss">Feedback</label>
+                <textarea
+                  name=""
+                  id="feedbackss"
+                  cols="57"
+                  rows="7"
+                  placeholder="Enter Your Comment"
+                ></textarea>
+              </div>
+              <!--Button Area-->
+              <div id="button_div">
+                <button class="btn_send">Send</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

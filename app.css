@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&family=Roboto:ital,wght@1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+    background-image: url(netflixbackground.jpg);
+    font-size: 16px;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 90%;
+    height: 850px;
+    margin: 2.6em 6em;
+}
+
+.h1_container {
+    letter-spacing: 4px;
+    color: white;
+    text-align: center;
+    font-size: 2.5em;
+    padding: 0.3em 0em 0em 0em;
+}
+
+.h1_container span{
+    color: red;
+}
+
+.just_text {
+    text-align: center;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 1.3em;
+    margin-bottom: 0.5em;
+}
+
+.form_container {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 500px;
+    height: auto;
+    margin: auto;
+    padding-top: 15px;
+    color: white;
+}
+input{
+     width: 90%;
+     height: 2.5em;
+}
+label {
+    display: block;
+}
+
+select{
+    width: 90%;
+    height: 3.5em;
+}
+.inputs {
+    margin-left: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.content_v1{
+    padding-bottom: 1em;
+}
+
+
+.checkbox-radio_inputs {
+width: auto;
+height: auto;
+}
+
+.checkbox-radio_labels {
+    display: inline;
+}
+
+.radio-button {
+    width: auto;
+    height: auto;
+}
+
+#button_div {
+    text-align: center;
+}
+
+.btn_send {
+background-color: red;
+font-size: large;
+width: 9em;
+height: 2.5em;
+border-radius: 50px;
+color: white;
+padding: 0.5em 1em 0.5em 1em;
+margin-bottom: 1em;
+cursor: pointer;
+}
+
+.btn_send:hover {
+background-color: white;
+color: red;
+cursor: pointer;
+}
